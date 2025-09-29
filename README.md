@@ -1,2 +1,201 @@
 # agroia-privacy
 contiene las politicas de privacidad y condiciones de uso para agroia 
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>AgroIA · Privacidad, Términos y Suscripciones</title>
+  <meta name="description" content="Política de privacidad, términos de uso y condiciones de suscripción de AgroIA (ES/EN).">
+  <style>
+    :root{ --brand:#10b981; --brand2:#0ea5a4; --bg:#ffffff; --fg:#111827; --muted:#6b7280; --card:#f9fafb; }
+    @media (prefers-color-scheme: dark){
+      :root{ --bg:#0f1115; --fg:#e5e7eb; --card:#12151b; --muted:#9aa1ad; }
+    }
+    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+    .wrap{max-width:900px;margin:0 auto;padding:24px}
+    .badge{display:inline-block;font-weight:600;color:#fff;background:linear-gradient(135deg,var(--brand),var(--brand2));padding:6px 10px;border-radius:999px;font-size:12px}
+    h1{font-size:28px;margin:12px 0 4px}
+    .muted{color:var(--muted);font-size:14px}
+    h2{margin-top:28px;border-left:4px solid var(--brand);padding-left:10px}
+    section{background:var(--card);padding:16px;border-radius:12px;margin:16px 0;border:1px solid rgba(0,0,0,.05)}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .grid{display:grid;gap:16px}
+    @media(min-width:720px){.grid{grid-template-columns:1fr 1fr}}
+    .small{font-size:12px;color:var(--muted)}
+    ul{padding-left:18px}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">Legal · Bilingüe (ES / EN)</span>
+  <h1>AgroIA</h1>
+  <div class="muted">Última actualización / Last updated: <strong id="lastUpdated">2025-09-29</strong></div>
+
+  <section id="indice">
+    <strong>Índice / Index</strong>
+    <ul>
+      <li><a href="#controller">Responsable / Controller</a></li>
+      <li><a href="#privacy">Privacidad / Privacy</a></li>
+      <li><a href="#camera">Uso de la cámara / Camera use</a></li>
+      <li><a href="#terms">Términos / Terms</a></li>
+      <li><a href="#subscriptions">Suscripciones / Subscriptions</a></li>
+      <li><a href="#cookies">Cookies & Analítica / Cookies & Analytics</a></li>
+      <li><a href="#security">Seguridad / Security</a></li>
+      <li><a href="#children">Menores / Children</a></li>
+      <li><a href="#changes">Cambios / Changes</a></li>
+      <li><a href="#contact">Contacto / Contact</a></li>
+    </ul>
+  </section>
+
+  <section id="controller">
+    <h2>Responsable del tratamiento (ES)</h2>
+    <p>
+      Responsable: <strong>AgroIA</strong><br/>
+      Email: <a href="mailto:contacto.agroiaasistente@gmail.com">contacto.agroiaasistente@gmail.com</a><br/>
+      Dirección: (añade tu dirección legal y país)
+    </p>
+
+    <h2>Data Controller (EN)</h2>
+    <p>
+      Controller: <strong>AgroIA</strong><br/>
+      Email: <a href="mailto:contacto.agroiaasistente@gmail.com">contacto.agroiaasistente@gmail.com</a><br/>
+      Address: (add your legal address and country)
+    </p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacidad (ES)</h2>
+    <p>En AgroIA respetamos tu privacidad y tratamos datos personales solo para prestar y mejorar el servicio.</p>
+    <ul>
+      <li><strong>Cuenta:</strong> email y autenticación (Firebase Authentication).</li>
+      <li><strong>Contenido:</strong> imágenes de plantas/hojas y datos de cultivo que subes.</li>
+      <li><strong>Ubicación:</strong> con tu permiso, para clima local y alertas agrícolas.</li>
+      <li><strong>Permisos:</strong> cámara/galería (análisis con IA), micrófono (dictado opcional), notificaciones (avisos relevantes).</li>
+      <li><strong>Pagos:</strong> gestionados por Google Play Billing; no accedemos a tu tarjeta.</li>
+      <li><strong>IA:</strong> los diagnósticos usan proveedores de IA (p. ej., Gemini). No subas datos personales.</li>
+    </ul>
+    <p><strong>Base legal:</strong> ejecución de contrato, interés legítimo (seguridad/fraude) y consentimiento (ubicación, notificaciones, analítica donde aplique).</p>
+    <p><strong>Conservación:</strong> mientras la cuenta esté activa y según ley; puedes solicitar eliminación.</p>
+    <p><strong>Destinatarios:</strong> encargados como Firebase/Google, Open-Meteo y servicios de IA. Pueden implicar transferencias internacionales con salvaguardas (p. ej., SCCs UE).</p>
+    <p><strong>Derechos:</strong> acceso, rectificación, supresión, oposición, limitación, portabilidad y retirada del consentimiento. Escríbenos a <a href="mailto:contacto.agroiaasistente@gmail.com">contacto.agroiaasistente@gmail.com</a>. También puedes <strong>eliminar tu cuenta</strong> desde Ajustes de la app o por email.</p>
+
+    <h2>Privacy (EN)</h2>
+    <p>We process personal data only to deliver and improve the service.</p>
+    <ul>
+      <li><strong>Account:</strong> email & authentication (Firebase Authentication).</li>
+      <li><strong>Content:</strong> plant/leaf images and crop data you upload.</li>
+      <li><strong>Location:</strong> with consent, to show local weather and alerts.</li>
+      <li><strong>Permissions:</strong> camera/gallery (AI analysis), microphone (optional dictation), notifications (relevant alerts).</li>
+      <li><strong>Payments:</strong> handled by Google Play Billing; we don’t access card details.</li>
+      <li><strong>AI:</strong> diagnoses rely on external AI providers (e.g., Gemini). Don’t upload personal data.</li>
+    </ul>
+    <p><strong>Lawful basis:</strong> contract performance, legitimate interest (security/fraud), and consent (location, notifications, analytics where applicable).</p>
+    <p><strong>Retention:</strong> for as long as your account is active and as required by law; you may request deletion.</p>
+    <p><strong>Recipients:</strong> processors including Firebase/Google, Open-Meteo, and AI services; may involve international transfers with appropriate safeguards (e.g., EU SCCs).</p>
+    <p><strong>Your rights:</strong> access, rectification, erasure, objection, restriction, portability, and consent withdrawal. Email <a href="mailto:contacto.agroiaasistente@gmail.com">contacto.agroiaasistente@gmail.com</a>. You can also <strong>delete your account</strong> in Settings or via email.</p>
+  </section>
+
+  <section id="camera">
+    <h2>Uso de la cámara (ES)</h2>
+    <ul>
+      <li><strong>Finalidad:</strong> capturar fotos de plantas, hojas, semillas o muestras (p. ej., suelo) para analizarlas con IA.</li>
+      <li><strong>Tratamiento local:</strong> las imágenes se procesan localmente y se envían al servicio de IA solo para generar el diagnóstico.</li>
+      <li><strong>Almacenamiento:</strong> puedes guardar la imagen en tu dispositivo; el historial guarda resultados y, opcionalmente, la URI de la imagen.</li>
+      <li><strong>Control del usuario:</strong> puedes denegar el permiso de cámara; la app seguirá funcionando con carga desde galería.</li>
+    </ul>
+
+    <h2>Camera use (EN)</h2>
+    <ul>
+      <li><strong>Purpose:</strong> capture photos of plants, leaves, seeds or samples (e.g., soil) for AI analysis.</li>
+      <li><strong>Local handling:</strong> images are processed on-device and sent to the AI service only to produce the diagnosis.</li>
+      <li><strong>Storage:</strong> you may save images on your device; history stores results and optionally the image URI.</li>
+      <li><strong>User control:</strong> you may deny camera permission; the app still works by selecting images from gallery.</li>
+    </ul>
+  </section>
+
+  <section id="terms">
+    <h2>Términos (ES)</h2>
+    <ul>
+      <li><strong>Uso permitido:</strong> fines agrícolas legítimos; no subir contenido ilícito o infractor.</li>
+      <li><strong>IA:</strong> orientativa; no sustituye asesoría profesional.</li>
+      <li><strong>Disponibilidad:</strong> el servicio puede cambiar o interrumpirse.</li>
+      <li><strong>Edad mínima:</strong> 16+.</li>
+      <li><strong>Responsabilidad:</strong> sin responsabilidad por daños indirectos o decisiones basadas solo en la app.</li>
+    </ul>
+
+    <h2>Terms (EN)</h2>
+    <ul>
+      <li><strong>Permitted use:</strong> legitimate agricultural purposes; no unlawful/infringing content.</li>
+      <li><strong>AI:</strong> advisory only; not a substitute for professional agronomy.</li>
+      <li><strong>Availability:</strong> service may change or be interrupted.</li>
+      <li><strong>Minimum age:</strong> 16+.</li>
+      <li><strong>Liability:</strong> no liability for indirect damages or decisions made solely based on the app.</li>
+    </ul>
+  </section>
+
+  <section id="subscriptions">
+    <h2>Suscripciones (ES)</h2>
+    <ul>
+      <li><strong>Proveedor:</strong> Google Play Billing. AgroIA no recibe tu tarjeta.</li>
+      <li><strong>Renovación automática:</strong> hasta cancelación.</li>
+      <li><strong>Cancelación:</strong> desde Play Store; acceso hasta fin del periodo pagado.</li>
+      <li><strong>Reembolsos:</strong> según política de Google Play.</li>
+    </ul>
+
+    <h2>Subscriptions (EN)</h2>
+    <ul>
+      <li><strong>Provider:</strong> Google Play Billing. AgroIA does not receive card details.</li>
+      <li><strong>Auto-renew:</strong> until canceled.</li>
+      <li><strong>Cancellation:</strong> via Play Store; access until period end.</li>
+      <li><strong>Refunds:</strong> per Google Play policy.</li>
+    </ul>
+  </section>
+
+  <section id="cookies">
+    <h2>Cookies & Analítica (ES)</h2>
+    <p>La app no usa cookies tradicionales. Podemos usar analítica (p. ej., Firebase Analytics) con tu consentimiento donde aplique.</p>
+    <h2>Cookies & Analytics (EN)</h2>
+    <p>The app does not use traditional cookies. We may use analytics (e.g., Firebase Analytics) with your consent where required.</p>
+  </section>
+
+  <section id="security">
+    <h2>Seguridad (ES)</h2>
+    <p>Cifrado en tránsito, controles de acceso y buenas prácticas de Firebase.</p>
+    <h2>Security (EN)</h2>
+    <p>Encryption in transit, access controls, and Firebase best practices.</p>
+  </section>
+
+  <section id="children">
+    <h2>Menores (ES)</h2>
+    <p>No dirigido a menores de 16 años.</p>
+    <h2>Children (EN)</h2>
+    <p>Not directed to children under 16.</p>
+  </section>
+
+  <section id="changes">
+    <h2>Cambios (ES)</h2>
+    <p>Podemos actualizar este documento y publicar la fecha vigente.</p>
+    <h2>Changes (EN)</h2>
+    <p>We may update this document and post the current date.</p>
+  </section>
+
+  <section id="contact" class="grid">
+    <div>
+      <h2>Contacto (ES)</h2>
+      <p>Email: <a href="mailto:contacto.agroiaasistente@gmail.com">contacto.agroiaasistente@gmail.com</a><br/> Dirección: (añade tu dirección legal)</p>
+    </div>
+    <div>
+      <h2>Contact (EN)</h2>
+      <p>Email: <a href="mailto:contacto.agroiaasistente@gmail.com">contacto.agroiaasistente@gmail.com</a><br/> Address: (add your legal address)</p>
+    </div>
+  </section>
+
+  <p class="small">© <span id="yy"></span> AgroIA — Todos los derechos reservados / All rights reserved.</p>
+</div>
+<script>
+  document.getElementById('yy').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
