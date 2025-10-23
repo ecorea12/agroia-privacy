@@ -24,13 +24,16 @@
     nav ul{list-style:none;padding-left:0}
     nav li{margin:6px 0}
     .tag{font-size:12px;padding:2px 8px;border-radius:999px;background:rgba(16,185,129,.1);color:#059669;margin-left:6px}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:8px;border-bottom:1px solid rgba(0,0,0,.08);vertical-align:top}
+    code{background:rgba(0,0,0,.06);padding:2px 6px;border-radius:6px}
   </style>
 </head>
 <body>
 <div class="wrap">
   <span class="badge">Legal · Bilingüe (ES / EN)</span>
   <h1>AgroIA</h1>
-  <div class="muted">Última actualización / Last updated: <strong>2025-10-07</strong></div>
+  <div class="muted">Última actualización / Last updated: <strong>2025-10-23</strong></div>
 
   <!-- ======= ÍNDICE ======= -->
   <section id="index">
@@ -82,13 +85,15 @@
       <li><strong>Cuenta:</strong> email y autenticación (Firebase Authentication).</li>
       <li><strong>Contenido:</strong> imágenes de plantas/hojas y datos de cultivo que subes.</li>
       <li><strong>Ubicación:</strong> con tu permiso, para clima local y alertas agrícolas.</li>
-      <li><strong>Permisos:</strong> cámara/galería (análisis con IA), micrófono (dictado), notificaciones.</li>
+      <li><strong>Permisos:</strong> cámara/galería (IA), micrófono (dictado), notificaciones.</li>
+      <li><strong>Identificadores y registros:</strong> AAID/ID de anuncios, datos de dispositivo, eventos de uso, diagnósticos y registros de errores.</li>
       <li><strong>Pagos:</strong> Google Play Billing; no accedemos a tu tarjeta.</li>
       <li><strong>IA:</strong> diagnósticos con proveedores externos (p. ej., Gemini). No subas datos personales.</li>
-      <li><strong>Base legal:</strong> ejecución de contrato, interés legítimo (seguridad/fraude) y consentimiento (ubicación, notificaciones, analítica, publicidad personalizada donde aplique).</li>
-      <li><strong>Conservación:</strong> mientras tu cuenta esté activa y según ley; puedes solicitar eliminación.</li>
-      <li><strong>Destinatarios:</strong> encargados como Firebase/Google, Open-Meteo y servicios de IA; posibles transferencias internacionales con salvaguardas (p. ej., SCCs UE).</li>
+      <li><strong>Base legal:</strong> ejecución de contrato; interés legítimo (seguridad/fraude/mejora) y consentimiento (ubicación, notificaciones, analítica, publicidad personalizada donde aplique).</li>
+      <li><strong>Conservación:</strong> mientras tu cuenta esté activa y según ley; registros técnicos y métricas se conservan por periodos razonables. Puedes solicitar eliminación (ver abajo).</li>
+      <li><strong>Destinatarios/Encargados:</strong> Firebase/Google (Auth, Firestore, Messaging), Google AdMob/UMP, Google AI (Gemini), Open-Meteo, Play Billing y otros encargados necesarios, con posibles transferencias internacionales y salvaguardas (p. ej., SCCs UE).</li>
       <li><strong>Derechos:</strong> acceso, rectificación, supresión, oposición, limitación, portabilidad y retirada del consentimiento. Escríbenos a <a href="mailto:contacto.agroiaasistente@gmail.com">contacto.agroiaasistente@gmail.com</a>. Puedes eliminar tu cuenta desde Ajustes o por email.</li>
+      <li><strong>Eliminación de cuenta y datos:</strong> en la app: <em>Ajustes → Cuenta → Eliminar cuenta</em> (si está disponible) o solicita eliminación por email.</li>
     </ul>
 
     <h2>Privacy (EN)</h2>
@@ -97,14 +102,31 @@
       <li><strong>Account:</strong> email & authentication (Firebase Authentication).</li>
       <li><strong>Content:</strong> plant/leaf images and crop data you upload.</li>
       <li><strong>Location:</strong> with consent, for local weather and alerts.</li>
-      <li><strong>Permissions:</strong> camera/gallery (AI analysis), microphone (dictation), notifications.</li>
+      <li><strong>Permissions:</strong> camera/gallery (AI), microphone (dictation), notifications.</li>
+      <li><strong>Identifiers & logs:</strong> AAID/ads ID, device data, usage events, diagnostics and crash logs.</li>
       <li><strong>Payments:</strong> Google Play Billing; we don’t access card details.</li>
       <li><strong>AI:</strong> diagnoses rely on external AI (e.g., Gemini). Don’t upload personal data.</li>
-      <li><strong>Lawful basis:</strong> contract performance, legitimate interest (security/fraud), and consent (location, notifications, analytics, personalized ads where applicable).</li>
-      <li><strong>Retention:</strong> while the account is active and as required by law; you may request deletion.</li>
-      <li><strong>Recipients:</strong> processors including Firebase/Google, Open-Meteo, AI services; may involve international transfers with safeguards (e.g., EU SCCs).</li>
+      <li><strong>Lawful basis:</strong> contract performance; legitimate interests (security/fraud/improvement) and consent (location, notifications, analytics, personalized ads where applicable).</li>
+      <li><strong>Retention:</strong> while the account is active and as required by law; technical logs and metrics kept for reasonable periods. You may request deletion.</li>
+      <li><strong>Recipients/Processors:</strong> Firebase/Google (Auth, Firestore, Messaging), Google AdMob/UMP, Google AI (Gemini), Open-Meteo, Play Billing and other processors as needed, including international transfers with safeguards (e.g., EU SCCs).</li>
       <li><strong>Your rights:</strong> access, rectification, erasure, objection, restriction, portability, and consent withdrawal. Email <a href="mailto:contacto.agroiaasistente@gmail.com">contacto.agroiaasistente@gmail.com</a>. You can also delete your account in Settings or via email.</li>
+      <li><strong>Account/data deletion:</strong> in-app: <em>Settings → Account → Delete account</em> (if available) or request deletion by email.</li>
     </ul>
+
+    <h3>Procesadores / Third-party processors</h3>
+    <table>
+      <thead><tr><th>Servicio / Service</th><th>Finalidad / Purpose</th></tr></thead>
+      <tbody>
+        <tr><td>Firebase Authentication</td><td>Login/registro</td></tr>
+        <tr><td>Firebase Firestore</td><td>Datos de uso/límites/diagnósticos</td></tr>
+        <tr><td>Firebase Cloud Messaging</td><td>Notificaciones</td></tr>
+        <tr><td>Google Play Billing</td><td>Suscripciones/pagos</td></tr>
+        <tr><td>Google AdMob</td><td>Publicidad recompensada</td></tr>
+        <tr><td>Google User Messaging Platform (UMP)</td><td>Gestión de consentimiento</td></tr>
+        <tr><td>Google AI (Gemini)</td><td>Análisis/diagnóstico IA</td></tr>
+        <tr><td>Open-Meteo</td><td>Clima local</td></tr>
+      </tbody>
+    </table>
   </section>
 
   <!-- ======= CÁMARA ======= -->
@@ -112,7 +134,7 @@
     <h2>Uso de la cámara (ES)</h2>
     <p>La cámara se usa exclusivamente para capturar fotos de plantas, hojas, semillas o muestras (p. ej., suelo) con fines de análisis mediante IA. Puedes denegar el permiso y usar galería.</p>
     <h2>Camera use (EN)</h2>
-    <p>Camera is used solely to capture photos of plants, leaves, seeds, or samples (e.g., soil) for AI analysis. You may deny permission and use gallery instead.</p>
+    <p>Camera is used solely to capture photos of plants, leaves, seeds, or samples (e.g., soil) for AI analysis. You may deny permission and use the gallery instead.</p>
   </section>
 
   <!-- ======= PUBLICIDAD (ADMOB) ======= -->
@@ -123,14 +145,26 @@
       <li><strong>EN:</strong> The free plan shows <em>rewarded</em> ads (Google AdMob). Premium users see no ads.</li>
       <li><strong>Consentimiento y personalización / Consent & Personalization:</strong>
         <ul>
-          <li><strong>ES:</strong> Usamos el formulario de consentimiento de Google (GDPR/EEA/UK) y respetamos opciones “no personalizados” (incl. CCPA/CPRA). Puedes cambiar preferencias desde la app si el formulario está disponible.</li>
-          <li><strong>EN:</strong> We use Google’s consent form (GDPR/EEA/UK) and honor “non-personalized” choices (incl. CCPA/CPRA). You can adjust preferences from the app if the form is available.</li>
+          <li><strong>ES:</strong> Usamos el formulario de consentimiento de Google (GDPR/EEA/UK) y respetamos opciones de anuncios <em>no personalizados</em>. También respetamos “No vender ni compartir mi información” (CCPA/CPRA) para California.</li>
+          <li><strong>EN:</strong> We use Google’s consent form (GDPR/EEA/UK) and honor <em>non-personalized</em> ads choices. We also honor “Do Not Sell or Share My Personal Information” (CCPA/CPRA) for California.</li>
+          <li><strong>App:</strong> Puedes gestionar tus preferencias en <em>Ajustes → Privacidad → Opciones de privacidad</em> (si el formulario está disponible).</li>
         </ul>
       </li>
       <li><strong>Datos publicitarios / Ads data:</strong>
         <ul>
-          <li><strong>ES:</strong> AdMob puede procesar identificadores del dispositivo, IP aproximada, eventos de impresión/click y métricas de rendimiento publicitario según sus políticas.</li>
-          <li><strong>EN:</strong> AdMob may process device identifiers, approximate IP, impression/click events, and ad performance metrics per its policies.</li>
+          <li><strong>ES:</strong> AdMob puede procesar identificadores del dispositivo (p. ej., AAID), IP aproximada, eventos de impresión/clic y métricas de rendimiento.</li>
+          <li><strong>EN:</strong> AdMob may process device identifiers (e.g., AAID), approximate IP, impression/click events, and performance metrics.</li>
+        </ul>
+      </li>
+      <li><strong>Información de Google / Google information:</strong>
+        <ul>
+          <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="nofollow noopener">How Google uses information from apps that use our services</a></li>
+        </ul>
+      </li>
+      <li><strong>CCPA/CPRA:</strong>
+        <ul>
+          <li><strong>ES:</strong> Si resides en California, puedes activar “No vender/compartir” en la app (Ajustes → Privacidad) o escribir a <a href="mailto:contacto.agroiaasistente@gmail.com">contacto.agroiaasistente@gmail.com</a>.</li>
+          <li><strong>EN:</strong> If you are a California resident, enable “Do Not Sell/Share” in-app (Settings → Privacy) or email <a href="mailto:contacto.agroiaasistente@gmail.com">contacto.agroiaasistente@gmail.com</a>.</li>
         </ul>
       </li>
     </ul>
@@ -139,8 +173,8 @@
   <!-- ======= COOKIES & ANALÍTICA ======= -->
   <section id="analytics">
     <h2>Cookies & Analítica / Cookies & Analytics</h2>
-    <p><strong>ES:</strong> La app no usa cookies tradicionales. Podemos usar analítica (p. ej., Firebase Analytics) con tu consentimiento donde aplique.</p>
-    <p><strong>EN:</strong> The app does not use traditional cookies. We may use analytics (e.g., Firebase Analytics) with your consent where required.</p>
+    <p><strong>ES:</strong> La app no usa cookies tradicionales. Podemos usar analítica (p. ej., Firebase Analytics) y/o diagnósticos con tu consentimiento donde aplique.</p>
+    <p><strong>EN:</strong> The app does not use traditional cookies. We may use analytics (e.g., Firebase Analytics) and/or diagnostics with your consent where required.</p>
   </section>
 
   <!-- ======= TÉRMINOS ======= -->
@@ -189,15 +223,15 @@
   <!-- ======= SEGURIDAD ======= -->
   <section id="security">
     <h2>Seguridad / Security</h2>
-    <p><strong>ES:</strong> Cifrado en tránsito, controles de acceso y buenas prácticas de Firebase.</p>
-    <p><strong>EN:</strong> Encryption in transit, access controls, and Firebase best practices.</p>
+    <p><strong>ES:</strong> Cifrado en tránsito, controles de acceso y buenas prácticas de Firebase. Conservamos registros técnicos y aplicamos medidas para prevenir fraude/abuso.</p>
+    <p><strong>EN:</strong> Encryption in transit, access controls, and Firebase best practices. We keep technical logs and apply measures to prevent fraud/abuse.</p>
   </section>
 
   <!-- ======= MENORES ======= -->
   <section id="children">
     <h2>Menores / Children</h2>
-    <p><strong>ES:</strong> No dirigido a menores de 16 años.</p>
-    <p><strong>EN:</strong> Not directed to children under 16.</p>
+    <p><strong>ES:</strong> No dirigido a menores de 16 años ni diseñado para niños. No utilizamos etiquetas ni anuncios dirigidos a niños.</p>
+    <p><strong>EN:</strong> Not directed to users under 16 and not designed for children. We do not use “for children” labels or child-directed ads.</p>
   </section>
 
   <!-- ======= CAMBIOS ======= -->
